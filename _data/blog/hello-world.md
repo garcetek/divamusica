@@ -1,10 +1,9 @@
 ---
 template: BlogPost
-path: /hello-world
-date: 2020-02-20T07:08:53.137Z
-title: Hello World
-thumbnail: ''
-metaDescription: Meta description for Hello World
+path: /incompleto
+date: 2018-01-01T07:08:53.137Z
+title: INCOMPLETO
+metaDescription: ''
+thumbnail: /assets/Captura web_15-3-2022_19465_express.adobe.com.jpeg
 ---
-
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique fugiat delectus pariatur blanditiis nulla soluta ratione nostrum, harum maiores adipisci a quod nobis cupiditate quae odit unde qui sit consequuntur.
+En el año 2017 lanzan su primer EP "Incompleto" un disco de estudio que contiene 6 canciones originales, combinando dosis justas de melodías pop y energía rock.
