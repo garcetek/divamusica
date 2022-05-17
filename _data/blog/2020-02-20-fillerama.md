@@ -3,7 +3,7 @@ template: BlogPost
 path: /nosotros
 date: 2020-02-20T14:59:36.571Z
 title: NOSOTROS
-thumbnail: /assets/CAP_3.jpg
+thumbnail: /assets/nosotros2.jpg
 ---
 ### DIVA es una banda originaria de Buenos Aires, formada a principios de 1995. Con varios cambios en las formaciones, paréntesis en el tiempo y reinvenciones, finalmente en 2016 vuelven a juntarse varios de sus miembros originales para darle una segunda vida a esta idea musical de canciones propias en formato Power-Pop.
 
