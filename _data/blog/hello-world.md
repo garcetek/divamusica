@@ -2,7 +2,7 @@
 template: BlogPost
 path: /incompleto
 date: 2018-01-01T07:08:53.137Z
-title: INCOMPLETO
+title: INCOMPLETO - EP
 metaDescription: ''
 thumbnail: /assets/Captura web_15-3-2022_19465_express.adobe.com.jpeg
 ---
