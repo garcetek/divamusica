@@ -20,7 +20,7 @@ const ContactPage = ({
           <p>Completa el fomulario y nos ponemos en Contacto&rarr;</p>
         </div>
         <div>
-          <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
+          <form className="form-container" form name="divamusica" method="POST" data-netlify="true">
             <div>
               <label htmlFor="w3lName">Nombre</label>
               <input type="text" name="w3lName" id="w3lName"/>
