@@ -20,22 +20,23 @@ const ContactPage = ({
           <p>Completa el fomulario y nos ponemos en Contacto&rarr;</p>
         </div>
         <div>
-          <form className="form-container" form name="divamusica" method="POST" data-netlify="true">
+          <form className="form-container" form name="divamusica" method="POST" netlify data-netlify="true">
+            <input type="hidden" name="divamusica" value="contacto" />
             <div>
-              <label htmlFor="w3lName">Nombre</label>
-              <input type="text" name="w3lName" id="w3lName"/>
+              <label htmlFor="Name">Nombre</label>
+              <input type="text" name="Name" id="Name"/>
             </div>
             <div>
-              <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender"/>
+              <label htmlFor="Sender">Email</label>
+              <input type="email" name="Sender" id="Sender"/>
             </div>
             <div>
-              <label htmlFor="w3lSubject">Asunto</label>
-              <input type="text" name="w3lSubject" id="w3lSubject"/>
+              <label htmlFor="Subject">Asunto</label>
+              <input type="text" name="Subject" id="Subject"/>
             </div>
             <div>
-              <label htmlFor="w3lMessage">Mensaje</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
+              <label htmlFor="Message">Mensaje</label>
+              <textarea name="Message" id="Message"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
