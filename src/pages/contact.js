@@ -32,7 +32,7 @@ const ContactPage = ({
               <input type="hidden" name="bot-field" />
 
             <div>
-              <label htmlFor="Name">Nombre</label>
+              <label htmlFor="Name">Nombre/s</label>
               <input type="text" name="Name" id="Name"/>
             </div>
             <div>
