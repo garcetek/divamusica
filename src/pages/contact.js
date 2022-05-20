@@ -26,7 +26,6 @@ const ContactPage = ({
            method="post"
            data-netlify="true"
            data-netlify-honeypot="bot-field"
-           onSubmit={handleSubmit}
             >
             <input type="hidden" name="divamusica" value="contacto" />
               <p hidden>
