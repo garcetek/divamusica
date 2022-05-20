@@ -28,6 +28,7 @@ const ContactPage = ({
            data-netlify-honeypot="bot-field"
             >
             <input type="hidden" name="divamusica" value="contacto" />
+              <input type="hidden" name="bot-field" />
 
             <div>
               <label htmlFor="Name">Nombre</label>
