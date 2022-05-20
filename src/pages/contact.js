@@ -24,6 +24,7 @@ const ContactPage = ({
            className="form-container" 
            name="contacto"
            method="post"
+           action="pages/gracias"
            data-netlify="true"
            data-netlify-honeypot="bot-field"
             >
