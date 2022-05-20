@@ -22,7 +22,7 @@ const ContactPage = ({
         <div>
           <form 
            className="form-container" 
-           name="divamusica"
+           name="contacto"
            method="post"
            data-netlify="true"
            data-netlify-honeypot="bot-field"
