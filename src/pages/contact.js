@@ -11,17 +11,29 @@ const ContactPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Contact — {site.siteMetadata.title}</title>
+        <title>Contacto — {site.siteMetadata.title}</title>
         <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
       </Helmet>
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title">HOLA !</h1>
+          <h1 className="post-title">HOLA...</h1>
           <p>Completa el fomulario y nos ponemos en Contacto&rarr;</p>
         </div>
         <div>
-          <form className="form-container" form name="divamusica" method="POST" netlify data-netlify="true">
+          <form 
+           className="form-container" 
+           name="divamusica"
+           method="post"
+           data-netlify="true"
+           data-netlify-honeypot="bot-field"
+           onSubmit={handleSubmit}
+            >
             <input type="hidden" name="divamusica" value="contacto" />
+              <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+          </label>
+        </p>
             <div>
               <label htmlFor="Name">Nombre</label>
               <input type="text" name="Name" id="Name"/>
