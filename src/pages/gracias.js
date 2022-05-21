@@ -15,7 +15,7 @@ const GraciasPage = ({
         <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
       </Helmet>
       <div className="two-grids -contact">
-        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
+        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/happy.jpg')`, marginBottom: 0}}>
           <h1 className="post-title">GRACIAS !!</h1>
           <p>Ya recibimos tu mensaje y en breve nos ponemos en Contacto...</p>
           <a href="/">Volver al Inicio</a>
