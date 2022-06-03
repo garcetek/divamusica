@@ -48,7 +48,7 @@ const ContactPage = ({
               <textarea name="Message" id="Message"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
-              <input type="submit" className="button -primary" style={{marginRight: 0}} />
+              <input type="submit" value="Enviar" className="button -primary" style={{marginRight: 0}} />
             </div>
           </form>
         </div>
