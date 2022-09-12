@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /nosotros
-date: 2020-02-20T14:59:36.571Z
+date: 2021-12-31T14:59:36.571Z
 title: NOSOTROS
 thumbnail: /assets/nosotros2.jpg
 ---
